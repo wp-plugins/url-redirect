@@ -20,7 +20,7 @@
             </tr>
         </thead>
         <tbody>
-        <form method="post" action="options.php"> 
+        <form method="post"> 
             <?php settings_fields('wp_footer_pop_up_banner'); ?>
             <?php @do_settings_fields('wp_footer_pop_up_banner'); ?>
 
