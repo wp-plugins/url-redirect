@@ -1,4 +1,4 @@
-=== Footer Pop-Up Banner ===
+=== Url Redirect ===
 Contributors: ninjapress, wowdinamica, stefanobutto
 Donate link: https://ninjapress.net/
 Tags: url redirect
