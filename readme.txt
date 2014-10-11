@@ -8,17 +8,19 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Url Redirect permits to create unlimited redirections.
+Manage Unlimited Redirections
 
 == Description ==
 
-Url Redirect permits to create unlimited redirections. A redirect can be used in many situations, for example:
+You can create unlimited redirections. A redirect can be used in many situations, for example:
+* to hide an url you don’t want to show;
+* to short a long url;
+* to monitor the traffic of an url;
+* to redirect the users in another page during a maintenance;
+* to redirect user from a dormiant domain;
 
-to hide an url you don’t want to show;
-to short a long url;
-to monitor the traffic of an url;
-to redirect the users in another page during a maintenance;
-to redirect user from a dormiant domain;
+Language available only in english
+
 
 == Installation ==
 
