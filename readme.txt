@@ -1,10 +1,10 @@
 === Url Redirect ===
 Contributors: ninjapress, wowdinamica, stefanobutto
 Donate link: https://ninjapress.net/
-Tags: url redirect
+Tags: redirect, url redirect, redirecting
 Requires at least: 3.2
 Tested up to: 3.6
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +13,7 @@ Manage Unlimited Redirections
 == Description ==
 
 You can create unlimited redirections. A redirect can be used in many situations, for example:
+
 * to hide an url you don’t want to show;
 * to short a long url;
 * to monitor the traffic of an url;
@@ -39,7 +40,13 @@ Look at the frequently ask questions here and contact us for any information;
 
 == Screenshots ==
 
+1. Setting up a series of redirects in admin panel
+
 == Changelog ==
+
+= 1.1 = 
+While write a name, space character  is replaced with a '-' character
+Not allow insert a new entry with the url field blank
 
 = 1.0 =
 Initial revision

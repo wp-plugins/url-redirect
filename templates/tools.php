@@ -29,12 +29,12 @@
 
                 <td>
                     <label for="url_redirect_name"><?= site_url(); ?>/ </label>
-                    <input type="text" class="" name="url_redirect_name" id="url_redirect_name" style="font-size: 80%"/>
+                    <input type="text" required name="url_redirect_name" id="url_redirect_name" style="font-size: 80%"/>
                 </td>
 
                 <td>
                     <label for="url_redirect_link">URL: </label>
-                    <input type="text"  class="" name="url_redirect_link" id="url_redirect_link" style="font-size: 80%;"/>
+                    <input type="text"  required name="url_redirect_link" id="url_redirect_link" style="font-size: 80%;"/>
                 </td>
 
                 <td></td>
@@ -73,4 +73,8 @@
         <?php endif; ?>
         </tbody>
     </table>
+    
+    <a href="http://www.ninjapress.net/suite/" target="_blank">
+      <img style="float:right;margin-top: 2em;" src="<?= plugins_url('images/ninjapress-logo.png', dirname(__FILE__)); ?>" />
+   </a>
 </div>

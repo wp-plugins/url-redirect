@@ -5,6 +5,13 @@ jQuery(document).ready(function () {
         }
     });
     
+    jQuery('#url_redirect_name').keyup(function() {
+        var val = jQuery('#url_redirect_name').val();
+        jQuery('#url_redirect_name').val( val.replace(" ","-") );
+
+    });
+
+    
     jQuery('.url_redirect_reset_form').submit(function(e) {
         if ((!confirm('Are you sure you want to reset the counter?'))) {
             return false;
