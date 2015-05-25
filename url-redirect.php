@@ -4,7 +4,7 @@
   Plugin Name: URL Redirect
   Plugin URI: http://www.ninjapress.net/url-redirect/
   Description: Url Redirect permits to create unlimited redirections.
-  Version: 1.1
+  Version: 1.2
   Author: Ninja Press
   Author URI: http://www.ninjapress.net
   License: GPL2
@@ -82,7 +82,7 @@ if (!class_exists('URL_Redirect')) {
          ) {
 
             $name = sanitize_title($_POST['url_redirect_name']);
-            $link = esc_url($_POST['url_redirect_link'], 'http');
+            $link = esc_url_raw($_POST['url_redirect_link'], 'http');
             $save = TRUE;
 
             $map = get_option('url_redirect_map', array());
@@ -124,7 +124,7 @@ if (!class_exists('URL_Redirect')) {
 
          $map = get_option('url_redirect_map', array());
 
-         wp_enqueue_script('', plugins_url('js/admin.js', __FILE__), array('jquery', 'jquery-ui-core', 'wp-color-picker'), time(), true);
+         wp_enqueue_script('', plugins_url('js/admin.js', __FILE__), array('jquery'), time(), true);
 
          // Render the settings template
          include(sprintf("%s/templates/tools.php", dirname(__FILE__)));
